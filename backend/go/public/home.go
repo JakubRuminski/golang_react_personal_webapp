@@ -7,5 +7,5 @@ import (
 
 func HandleHomePage(w http.ResponseWriter, r *http.Request) {
 
-	html_utils.ServeHtml(w, "")
+	html_utils.ServeHtml(w, "../ui/static/html/home.html")
 }
